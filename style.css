@@ -465,6 +465,14 @@ header {
   text-align: center;
 }
 
+@media (min-width: 768px) {
+  .seo-highlight ul {
+    columns: 2;
+    column-gap: 40px;
+  }
+}
+
+
 /* ===== FOOTER ===== */
 footer {
   background: #1f2937;
