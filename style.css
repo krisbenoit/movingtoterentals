@@ -376,7 +376,94 @@ header {
 .booking-form select:focus {
   box-shadow: 0 0 0 2px #e76f51;
 }
+/* ===== SEO SECTION ===== */
+.seo-section {
+  background: #f8f9fb;
+  padding: 70px 20px;
+}
 
+.seo-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.seo-section h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #0d3b66;
+  margin-bottom: 15px;
+}
+
+.seo-intro {
+  text-align: center;
+  font-size: 17px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.seo-text {
+  text-align: center;
+  color: #555;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+/* Highlight box */
+.seo-highlight {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+.seo-highlight h3 {
+  margin-bottom: 12px;
+  color: #0d3b66;
+}
+
+.seo-highlight ul {
+  list-style: none;
+  padding: 0;
+}
+
+.seo-highlight li {
+  margin-bottom: 10px;
+  padding-left: 22px;
+  position: relative;
+  color: #444;
+}
+
+/* Custom check icons */
+.seo-highlight li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #e76f51;
+  font-size: 14px;
+}
+
+/* Areas section */
+.seo-areas {
+  margin-bottom: 20px;
+}
+
+.seo-areas h3 {
+  color: #0d3b66;
+  margin-bottom: 8px;
+}
+
+.seo-areas p {
+  color: #555;
+}
+
+/* Footer text */
+.seo-footer {
+  margin-top: 25px;
+  font-size: 14px;
+  color: #777;
+  text-align: center;
+}
 
 /* ===== FOOTER ===== */
 footer {
