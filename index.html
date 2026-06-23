@@ -161,13 +161,14 @@
       <h2>Ready to Make Moving Easy?</h2>
       <p>Reserve your tote rental today and enjoy a stress‑free move.</p>
 
-      <form class="booking-form">
-        <input type="text" placeholder="Full Name" required />
-        <input type="email" placeholder="Email Address" required />
-        <input type="tel" placeholder="Phone Number" required />
-        <input id="move_date" name="move_date" type="date" value="2025-10-30" required />
+      <form class="booking-form" action="https://formspree.io/f/xpqgzvzy" method="POST">
+        <input type="hidden" name="_subject" value="New Booking Request" />
+        <input type="text" name="name" placeholder="Full Name" required />
+        <input type="email" name="email" placeholder="Email Address" required />
+        <input type="tel" name="phone" placeholder="Phone Number" required />
+        <input id="move_date" name="move_date" name="move_date" type="date" value="2025-10-30" required />
         <input type="text" name="address" placeholder="Enter your delivery address" required />
-        <select class="placeholder-select" required>
+        <select name="package" class="placeholder-select" required>
           <option value="" disabled selected>Choose your tote package</option>
           <option>20 Totes</option>
           <option>30 Totes (Most Popular)</option>
