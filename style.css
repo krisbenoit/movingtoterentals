@@ -148,6 +148,27 @@ h1.logo {
   padding: 60px 0;
 }
 
+.feature {
+  padding: 80px 20px;
+  background-color: #f9fafb;
+  text-align: center;
+}
+
+.feature-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.feature h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.feature p {
+  color: #555;
+  line-height: 1.6;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
