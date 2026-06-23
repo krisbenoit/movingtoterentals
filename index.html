@@ -273,6 +273,28 @@
       <p>© 2026 movingtoterentals.ca • Calgary, AB</p>
     </div>
   </footer>
+<!-- FAQ section -->
+  <script>
+  const faqItems = document.querySelectorAll(".faq-item");
 
+  faqItems.forEach(item => {
+    const button = item.querySelector(".faq-question");
+
+    button.addEventListener("click", () => {
+      item.classList.toggle("active");
+
+      const answer = item.querySelector(".faq-answer");
+
+      if (item.classList.contains("active")) {
+        answer.style.maxHeight = answer.scrollHeight + "px";
+      } else {
+        answer.style.maxHeight = null;
+      }
+    });
+  });
+</script>
+
+  <!--faq section functionality end-->
+  
 </body>
 </html>
