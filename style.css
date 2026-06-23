@@ -53,6 +53,12 @@ header {
   letter-spacing: 0.5px;
 }
 
+.logo img {
+  height: 40px;
+  width: auto;
+}
+
+
 /* ===== BUTTONS ===== */
 .btn {
   display: inline-block;
