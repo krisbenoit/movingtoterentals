@@ -47,6 +47,23 @@ header {
   padding: 15px 0;
 }
 
+
+.nav-cta {
+  background-color: #0077cc;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 6px;
+  margin-left: 30px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.nav-cta:hover {
+  background-color: #005fa3;
+  transform: translateY(-1px);
+}
+
+
 .logo {
   color: #0d3b66;
   font-size: 1.4rem;
@@ -65,7 +82,7 @@ h1.logo {
 }
 
 .logo img {
-  height: 100px;
+  height: 60px;
   width: auto;
 }
 
