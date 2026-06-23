@@ -600,6 +600,13 @@ booking-form input {
   color: #555;
   line-height: 1.6;
 }
+
+
+.faq-question:hover {
+  color: #0077cc;
+}
+
+
 /* Footer text */
 .seo-footer {
   margin-top: 25px;
