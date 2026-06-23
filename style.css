@@ -547,6 +547,59 @@ booking-form input {
   color: #555;
 }
 
+/* FAQ */
+.faq {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.faq h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+.faq-item {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.faq-question {
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  padding: 18px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: #222;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-question::after {
+  content: "+";
+  font-size: 1.2rem;
+  transition: transform 0.2s ease;
+}
+
+.faq-item.active .faq-question::after {
+  content: "–";
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.faq-answer p {
+  padding: 0 0 15px;
+  color: #555;
+  line-height: 1.6;
+}
 /* Footer text */
 .seo-footer {
   margin-top: 25px;
