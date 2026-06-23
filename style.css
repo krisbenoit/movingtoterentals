@@ -79,6 +79,7 @@ header {
 .btn.primary {
   background: #e76f51;
   color: white;
+justify-content:center;
 }
 
 .btn.primary:hover {
